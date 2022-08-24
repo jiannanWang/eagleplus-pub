@@ -1,0 +1,6 @@
+**/__pycache__
+**/log.txt
+EAGLE/data
+*.log
+.vscode/
+

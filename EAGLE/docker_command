@@ -1,0 +1,3 @@
+docker pull jiannanwang/torchrec_test:latest
+docker run -ti -d --name eagleplus -v "/local2/j2482wan/eagleplus":"/mnt/" --gpus all --network host jiannanwang/torchrec_test:latest /bin/bash
+docker exec -it eagleplus bash
