@@ -9,7 +9,7 @@ Directory `newrules` contains code for the new rules for TorchRec and other new 
 ## Instruction
 
 ### Create enviroment
-To create the docker container, first enter the `EAGLE` directory, then run `bash docker_command`.
+To create the docker container, first enter the `EAGLE` directory. Then open `docker_command` file to change the mount address to mount the actual address of project `eagleplus-pub`. Finally, run `bash docker_command`.
 
 ### Generate input datasets
 To generate and save input datasets, under the `EAGLE` directory, run `python -m newrules.gen_torchrec_model_and_dataset`. Input will be saved under `EAGLE/data/dataset` and models will be saved under `EAGLE/data/models`.
